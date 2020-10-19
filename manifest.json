@@ -1,0 +1,13 @@
+{
+    "name": "To the stars",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_icon": "Icon-128.png"
+    },
+    "background": {
+    "scripts": "background.js",
+    "persistent": false,
+    }
+  }
