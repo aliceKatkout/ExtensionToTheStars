@@ -1,4 +1,4 @@
-alert('hello');
+//alert('hello');
 
 // function updateSameImage(el) {
 // //  el.src = document.getElementById('sourceImage').value;
