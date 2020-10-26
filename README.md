@@ -4,7 +4,7 @@ Et ensuite terre et mer
 Exercice en groupe à l'Ada Tech School (niveau 2).
 Membres emérites : 
 - Quentin Bérard
-- Nils Fjelddahal
+- Nils Fjelddahl
 - Fanny Armand
 - Alice Védrenne
 
