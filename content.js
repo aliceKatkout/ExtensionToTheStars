@@ -1,9 +1,9 @@
 const TitleType = document.getElementsByTagName("h1"); //recupere les h1
 const ArrayOfTitle = Array.from(TitleType); // Créé un tableau avec les h1
 
-function updateFontColor(el) { 
+function updateFontColor(el) {
   el.style.color = "green";
-} 
+}
 // change la couleur des h1
 
 ArrayOfTitle.forEach(updateFontColor); //applique la fonction sur tous les titres du tableau
@@ -29,6 +29,8 @@ function updateSameImage(el) {
 
 updateSourceImage(); // Applique la fonction
 
+
+
 // Tout ce qui suit ne sont que des tests n'y prêter pas attention
 // const ImageType = document.getElementsByTagName("img");
 // const ArrayOfImages = Array.from(ImageType);
@@ -38,4 +40,7 @@ updateSourceImage(); // Applique la fonction
 // }
 //
 // ArrayOfImages.forEach(updateSameImage);
-
+// document.getElementById("save").addEventListener("click",function(){
+//   reload()
+//   alert("L'eventlis marche");
+// });
