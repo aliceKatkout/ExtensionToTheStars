@@ -1,6 +1,13 @@
 # ExtensionToTheStars
 Une extension qui a pour but de relier ciel et terre
 Et ensuite terre et mer
+Exercice en groupe à l'Ada Tech School (niveau 2).
+Membres emérites : 
+- Quentin Bérard
+- Nils Fjelddahal
+- Fanny Armand
+- Alice Védrenne
+
 
 C'est une extension pour Google Chrome.
 Son but est d'afficher une fenêtre pop up lorsque l'on clique sur le logo de l'extension, dans laquelle l'utilisateur peut rentrer l'Url de l'image de son choix.
