@@ -2,19 +2,16 @@
 document.getElementById("save").onclick = function() {
   const value = document.getElementById("sourceImage").value;
 
-  // User data will be automatically synced with Chrome.
-  // @see https://developer.chrome.com/apps/storage
   chrome.storage.sync.set({"monImage": value}, function(){
-    console.log("success");
   })
 }
 
-// document.getElementById("get").onclick = function() {
-//   chrome.storage.sync.get("monImage", function(data) {
-//     alert(data.monImage);
-//     const imageChoisie = data.monImage;
-//   })
-// };
+//Au click sur le bouton Go(id=save), on récupère l'url entrée par l'utilisateur (id=sourceImage), puis on la stocke avec chrome storage, associée à la clé MonImage.
+
+
+//Bordel tests et documentation:
+// User data will be automatically synced with Chrome.
+  // @see https://developer.chrome.com/apps/storage
 
 
   // el.src = document.getElementById('sourceImage').value;
@@ -23,11 +20,4 @@ document.getElementById("save").onclick = function() {
 
 
 
-// let btn = document.getElementById('btn');
-// btn.addEventListener('click', hello);
-//
-// function hello() {
-//   chrome.tabs.executeScript({
-//     file: 'alert.js'
-//   });
-// }
+
