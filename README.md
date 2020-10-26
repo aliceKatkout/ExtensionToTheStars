@@ -14,7 +14,7 @@ Nous voulions faire en sorte que le bouton go, en plus de stocker l'url de l'ima
 1)manifest.json
 Fichier initial de l'extension.
 
-2) content.js
+2)content.js
 Récupère les h1 et les mets en vert.
 Récupère les images et en change la source grâce à l'url rentrée par l'utilisateur.
 
