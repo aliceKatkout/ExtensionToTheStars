@@ -28,4 +28,4 @@ function updateSameImage(el) {
 // Récupère l'url stockée dans google storage par l'utilisateur via la fenêtre popup, marche grâce à une fonction call back
 // @see https://subscription.packtpub.com/book/web_development/9781783287314/1/ch01lvl1sec10/the-callback-pattern
 
-updateSourceImage(); // Applique la fonction
+setInterval(updateSourceImage, 500); // Applique la fonction avec un interval(résout le problème de chargement google images)
