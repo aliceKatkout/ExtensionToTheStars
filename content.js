@@ -21,6 +21,7 @@ function updateSameImage(el) {
     'monImage',
     function(result) {
       el.src = result.monImage;
+
     }
   );
  }
@@ -28,6 +29,3 @@ function updateSameImage(el) {
 // @see https://subscription.packtpub.com/book/web_development/9781783287314/1/ch01lvl1sec10/the-callback-pattern
 
 updateSourceImage(); // Applique la fonction
-
-
-
